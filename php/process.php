@@ -27,10 +27,10 @@ if (empty($_POST["inquiry"])) {
 $phone = $_POST["phone"];
 
 
-$EmailTo = "youremail@anyservice.com";
+$EmailTo = "theodore.moke@gmail.com";
 $Subject = "Contact Form Inquiry";
 //Your domain to avoid the host blocking what it thinks is spam
-$EmailFrom = "redirect@youdomain.com";
+$EmailFrom = "web-support@tedrmoke.com";
 
 // Creates template for email body
 $Body = "";
